@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Resume</title>
+    <style>
+      .body {
+        display: flex;
+        justify-content: center;
+        background: beige;
+      }
+      .wrapper {
+        max-width: 80%;
+        background-color: white;
+        -webkit-box-shadow: 0 0 11px 11px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 11px 11px rgba(0, 0, 0, 0.2);
+      }
+
+      .profile-img {
+        border-radius: 50%;
+        border: 0.1px solid grey;
+        height: 200px;
+        width: 200px;
+      }
+
+      .left-section {
+        max-width: 30%;
+        float: left;
+        background-color: antiquewhite;
+      }
+
+      .left-section ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        float: left;
+        list-style: none;
+      }
+      .left-section ul li {
+        padding: 10px;
+      }
+
+      .titleHolder {
+        width: 100%;
+        float: left;
+        padding: 5px 0;
+      }
+
+      .titleHolder h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #313c4e;
+        text-transform: uppercase;
+        border-bottom: 2px solid #313c4e;
+        margin-top: 60px;
+        padding: 4px;
+      }
+
+      .skillType {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 5px;
+      }
+      .interesttype {
+        justify-content: flex-start;
+      }
+
+      .skillType span {
+        background-color: #313c4e;
+        padding: 6px;
+        border-radius: 5px;
+        color: #fff;
+      }
+      .interesttype span {
+        background-color: transparent;
+        border: 0.1px solid #313c4e;
+        color: black;
+      }
+
+      .langauge {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      .langaugetype {
+        width: 100%;
+        float: left;
+      }
+      .langaugetype h6 {
+        margin:-3px;
+        padding: 3px 6px;
+      }
+      .langaugetype .ltc {
+        font-style: italic;
+        font-weight: 200;
+      }
+      .right-section {
+        float: left;
+        max-width: 70%;
+      }
+      .bg-head {
+        background-color: #313c4e;
+        color: white;
+        font-size: 13px;
+        padding: 11px;
+      }
+      .user-title {
+        font-weight: 300;
+        margin: 1px;
+      }
+      .bt-des {
+        position: relative;
+        border-bottom: 2px solid;
+        font-weight: 200;
+        width: 27%;
+      }
+      .bt-exp {
+        text-align: justify;
+      }
+      .right-title {
+        width: 100%;
+        padding: 5px 0;
+      }
+      .study {
+        border-bottom: 2px solid;
+        width: 93%;
+        color: #313c4e;
+        margin: -4px 12px;
+        font-size: 14px;
+      }
+      .education {
+        color: #313c4e;
+        margin: -19px;
+        margin-left: 12px;
+      }
+      .university {
+        margin-top: 14px;
+        margin-left: 11px;
+      }
+      .date {
+        font-style: italic;
+        margin: -23px 11px;
+      }
+      .uniname {
+        font-weight: 200;
+      }
+      .dt {
+        font-weight: 100;
+      }
+      .projects {
+        font-weight: 100;
+        font-size: 21px;
+        margin: 22px 10px;
+        color: black;
+      }
+      .paragraph {
+        text-align: justify;
+        margin: 11px;
+      }
+      ul.a {
+        list-style-type: square;
+        margin: 24px;
+      }
+      .work {
+        font-weight: 100;
+        font-size: 17px;
+        margin: 22px 0px;
+        color: black;
+      }
+      .title-work {
+        margin-top: -6px;
+      }
+      @media screen and (max-width: 768px){
+        .left-section{
+          max-width: 100%;
+          background-color: antiquewhite;
+        }
+        .right-section{
+         max-width:100%;
+        }
+       
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="body">
+      <div class="wrapper">
+        <div class="left-section">
+          <div class="profileImageHolder">
+            <img class="profile-img" src="./profile pic.png" alt="my picture" />
+          </div>
+          <div class="leftContent">
+            <ul class="socialLink">
+              <li>
+                <div class="leftIcon">
+                  <img
+                    src="./email.png"
+                    alt="Email "
+                    style="width: 20px; height: 22px"
+                  />
+                </div>
+                <div class="leftDesc">haiderabedi26@gmail.com</div>
+              </li>
+              <li>
+                <div class="leftIcon">
+                  <img
+                    src="./phone.png"
+                    alt="Phone "
+                    style="width: 20px; height: 22px"
+                  />
+                </div>
+                <div class="leftDesc">03367048278</div>
+              </li>
+              <li>
+                <div class="leftIcon">
+                  <img
+                    src="./address.png"
+                    alt="Address "
+                    style="width: 20px; height: 22px"
+                  />
+                </div>
+                <div class="leftDesc">
+                  206 c Dream Garden Lahore, Lahore, Pakistan
+                </div>
+              </li>
+              <li>
+                <div class="leftIcon">
+                  <img
+                    src="./linkedin.png"
+                    alt="linkedin "
+                    style="width: 20px; height: 22px"
+                  />
+                </div>
+                <div class="leftDesc">
+                  www.linkedin.com/in/haider-abedi-09a743233
+                </div>
+              </li>
+              <li>
+                <div class="leftIcon">
+                  <img
+                    src="./github.png"
+                    alt="Github "
+                    style="width: 20px; height: 22px"
+                  />
+                </div>
+                <div class="leftDesc">github.com/iamshah26</div>
+              </li>
+            </ul>
+            <div class="skills">
+              <div class="titleHolder">
+                <h3>Skills</h3>
+              </div>
+              <div class="skillType">
+                <span>C</span>
+                <span>C++</span>
+                <span>OOP</span>
+                <span>Data Structure</span> <br />
+                <span>Data Base</span><br />
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>SonarQube</span>
+                <span>Asana</span><br />
+                <span>Salenium</span>
+                <span>Software Testing</span>
+                <span>Web Technologies</span> <br />
+                <span>Game Design</span>
+              </div>
+            </div>
+            <div class="language">
+              <div class="titleHolder lang">
+                <h3>Language</h3>
+              </div>
+              <div class="langaugetype">
+                <h6>language</h6>
+                <h6 class="ltc">Full Professional Proficiency</h6>
+              </div>
+              <div class="skills">
+                <div class="titleHolder">
+                  <h3>Interest</h3>
+                </div>
+                <div class="skillType interesttype">
+                  <span>gym</span>
+                  <span>Cricket</span> <br />
+                  <span>Arm Wrestling</span>
+                  <span>Acting</span>
+                  <span>Games</span>
+                  <span>Interest</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="bg-head">
+            <div><h1 class="user-title">Ali Haider</h1></div>
+            <div><h2 class="bt-des">Software Engineer</h2></div>
+            <div>
+              <p class="bt-exp">
+                An experienced team player and leader with excellent
+                communication skills and has ability to workindependently.
+                Ability to learn quickly and adapt to new technical
+                environments. Track record of professional and hardworking
+                attitude towards the job. Focused on delivery. My main objective
+                is tocontribute to the growth of an organization like yours. It
+                will give me a “Hands-on” experience andlearning in the
+                corporate sector
+              </p>
+            </div>
+          </div>
+          <div class="right-title">
+            <div class="study"><h1>EDUCATION</h1></div>
+            <div class="education"><h2>Software Engineer</h2></div>
+            <div class="university">
+              <h2 class="uniname">Comsats University Lahore</h2>
+            </div>
+            <div class="date"><h6 class="dt">09/2022 - 07/2022</h6></div>
+          </div>
+          <div class="right-title">
+            <div class="study"><h1>Work Experience</h1></div>
+            <div class="education"><h2>Project Cordinator</h2></div>
+            <div class="university">
+              <h2 class="uniname">Pixarsart Studios</h2>
+            </div>
+            <div class="date"><h6 class="dt">09/2022 - Present</h6></div>
+          </div>
+          <div class="right-title">
+            <div class="education"><h2>Virtual Assitant</h2></div>
+            <div class="university">
+              <h2 class="uniname">Amazon</h2>
+            </div>
+            <div class="date"><h6 class="dt">07/2019 - 09/2019</h6></div>
+          </div>
+          <div class="right-title">
+            <div class="study"><h1>PERSONAL PROJECTS</h1></div>
+            <div class="education">
+              <h2 class="projects">Corn Hole Tournament (FYP)</h2>
+            </div>
+            <div class="university">
+              <ul class="a">
+                <li>
+                  <p class="paragraph">
+                    Cornhole League is a Family Games in which players take
+                    turns to toss fabric bean bags at a raised platform with a
+                    corn hole in the far end. Just like paper toss and hoops
+                    you’ve to throw a Foot Bag on the wooden platform in plunder
+                    league Board Games. Family Games The rules of this Summer
+                    Sports hoops cornhole league are simple. A foot bag in the
+                    hole scores 3 points, while one on the board scores 1 point
+                    in Casual Games. Each team or player gets a turn to throw
+                    bean bag like Paper Toss in plunder league Board Games.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <h2 class="projects">ATM (Data Base)</h2>
+            </div>
+            <div class="university">
+              <ul class="a">
+                <li>
+                  <p class="paragraph">
+                    ATM management can keep track of the status and the
+                    transactions in the devices. It can also assist and help
+                    manage cash more efficiently, evaluate transaction data,
+                    spot potential fraud, keep track of transactions, and
+                    coordinate servicing.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <h2 class="projects">AHA Fast Delivers</h2>
+            </div>
+            <div class="university">
+              <ul class="a">
+                <li>
+                  <p class="paragraph">
+                    it was a UI/UX design where i have used the tool FIGMA to
+                    design the food delivery app and web
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="education"><h2 class="projects">Pacman</h2></div>
+            <div class="university">
+              <ul class="a">
+                <li>
+                  <p class="paragraph">
+                    Experience various maze designs with new obstacles and
+                    power-ups in an effort to eat all the Pac-dots and avoid the
+                    pesky Ghost Gang. Unlock, restore, and customize your new
+                    arcade cabinets and build the greatest neighborhood arcade.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-title">
+            <div class="study"><h1 class="title-work">VOLUNTEER WORK</h1></div>
+            <div class="education"><h2 class="work">Pixters Society</h2></div>
+            <div class="date"><h6 class="dt">Director</h6></div>
+          </div>
+          <div class="right-title">
+            <div class="education"><h2 class="work">Inkeshaf</h2></div>
+            <div class="date"><h6 class="dt">Director</h6></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
